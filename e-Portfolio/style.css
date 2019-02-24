@@ -1,0 +1,44 @@
+body { font-family:Verdana, Arial, sans-serif;
+      background-color: #a9f5d0;
+}
+#wrap { background-color: #f7d358; 
+           color: #000000;
+           width: 80%;
+		   margin: auto;
+           min-width: 960px;
+		   max-width: 1200px;
+} 
+nav a:link { color: white; }
+nav a:visited { color: brown; }
+nav a:hover { color: green; 
+}				
+main {  display: block; /* for Internet Explorer version 10 and below */
+        padding: 20px;
+        background-color: #ffffff;
+        color: #000000;
+} 
+header {background-image: url(pattern.jpg);
+		background-repeat: repeat;
+		color: white; 
+		width: 50%;
+		margin: auto;
+        min-width: 960px;
+		max-width: 1200px;
+		height: 120px;
+}
+img {width: 100%;}
+
+h2 { color: #ffbf00; 
+	 font-family: arial, sans-serif;
+}
+h1 {text-align: center;
+	font-size: 90px;
+	
+}
+
+footer { font-size:70%;
+         text-align: center;
+		 clear: right;
+		 background-color: #999999;
+         padding: 20px;
+}
